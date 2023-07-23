@@ -1,0 +1,26 @@
+@media(max-width: 992px) {
+    .section-div img {
+        display: none;
+    }
+
+    .section-div {
+        background-image: url(../img/hacker.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+    }
+
+    header i {
+        color: #f7f7f7;
+        font-size: 3rem;
+    }
+
+}
